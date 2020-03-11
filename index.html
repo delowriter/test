@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  	<head>
+    	<title>Form</title>
+    	<meta charset="UTF-8">
+	</head>
+	<body>
+        
+        <form name="form_one">
+            <legend>Анкета</legend>
+            <fieldset style="width: 250px;">
+                <p><label for="firstname">Ваше имя</label></p> 
+                <p><input id="firstname" type="text" placeholder="Введите имя"></p>
+                
+                <p><label for="surname"> Ваша фамилия</label></p>         
+                <p><input id="surname" type="text" placeholder="Введите фамилию"></p>
+                
+                <p><label for="birth">Ваша дата рождения</label></p>         
+                <p><input id="birth" type="date"></p>
+                
+                <p><label for="telephone">Ваш телефон</label></p>         
+                <p><input id="telephone" type="tel" placeholder="Введите телефон"></p>
+                
+                <p><label>Выберите размер</label></p> 
+                <p><input type="radio" name="size" value="XS">XS</p>
+                <p><input type="radio" name="size" value="S">S</p>
+                <p><input type="radio" name="size" value="M">M</p>
+                <p><input type="radio" name="size" value="L">L</p>
+                
+                <p><label for="options">Дополнительные опции</label></p>
+                <p><input type="checkbox" name="options" value="Доставка">Доставка</p> 
+                <p><input type="checkbox" name="options" value="Оплата картой">Оплата картой</p> 
+                <p><input type="checkbox" name="options" value="Перезвоните мне">Перезвоните мне</p> 
+
+                <p><label>Выберите цвет</label></p>
+                <p><select size="4" multiple name="color">
+                    <option value="Красный">Красный</option>
+                    <option value="Синий">Синий</option>
+                    <option value="Белый">Белый</option>
+                    <option selected value="Черный">Черный</option>
+                </select></p>
+                <p><input type="submit" value="Отправить"></p>
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
